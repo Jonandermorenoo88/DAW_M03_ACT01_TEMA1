@@ -13,4 +13,4 @@
       Scanner scanner = new Scanner(System.in);
       System.out.println("¿Cuantos telefonos moviles quieres comprar?");
       int cantidadCompradaMoviles = scanner.nextInt();
-# 3.	Utilizando System.out.println, muestra la cantidad de cada artículo que queda en el inventario después de la compra.
+ ## 3.	Utilizando System.out.println, muestra la cantidad de cada artículo que queda en el inventario después de la compra.
