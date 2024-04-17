@@ -38,9 +38,6 @@ public class TiendaElectronica {
         int StockAuricularesBluetooh = cAuricularesBluetooth - sc.nextInt();
         System.out.println(StockAuricularesBluetooh);
         
-        
-        
-        
     }
     
 }
