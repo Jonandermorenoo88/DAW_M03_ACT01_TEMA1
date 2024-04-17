@@ -28,14 +28,20 @@ public class TiendaElectronica {
         
         System.out.println("¿Cuantos Telefonos Moviles quieres comprar?");
         int StockTelefono = cTelefonosMoviles - sc.nextInt();
-        System.out.println(StockTelefono);
+        int TotalTelefono = ptelefonomovil * sc.nextInt();
+        System.out.println("El precio total de los telefonos moviles " + TotalTelefono);
+        
         
         System.out.println("¿Cuantos Ordenadores Portatiles quieres comprar?");
         int StockOrdenaPortatiles = cOrdenadoresPortatiles - sc.nextInt();
-        System.out.println(StockOrdenaPortatiles);
+        
         
         System.out.println("¿Cuantos Auriculares Bluetooth quieres comprar?");
         int StockAuricularesBluetooh = cAuricularesBluetooth - sc.nextInt();
+        System.out.println(StockAuricularesBluetooh);
+        
+        System.out.println(StockTelefono);
+        System.out.println(StockOrdenaPortatiles);
         System.out.println(StockAuricularesBluetooh);
         
     }
