@@ -9,5 +9,8 @@
         c.	Precio de un teléfono móvil: 300
         d.	Precio de un ordenador portátil: 800
         e.	Precio de unos auriculares Bluetooth: 50
-# 2.	El programa debe solicitar al usuario que indique la cantidad de cada producto que desea comprar. Utiliza la clase Scanner para capturar la entrada del usuario. Por ejemplo:
+  ## 2.	El programa debe solicitar al usuario que indique la cantidad de cada producto que desea comprar. Utiliza la clase Scanner para capturar la entrada del usuario. Por ejemplo:
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("¿Cuantos telefonos moviles quieres comprar?");
+      int cantidadCompradaMoviles = scanner.nextInt();
 # 3.	Utilizando System.out.println, muestra la cantidad de cada artículo que queda en el inventario después de la compra.
