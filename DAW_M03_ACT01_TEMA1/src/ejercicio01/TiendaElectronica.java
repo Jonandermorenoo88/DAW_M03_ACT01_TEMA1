@@ -27,8 +27,20 @@ public class TiendaElectronica {
         Scanner sc = new Scanner (System.in);
         
         System.out.println("¿Cuantos Telefonos Moviles quieres comprar?");
-        int restoTelefono = cTelefonosMoviles - sc.nextInt();
-        System.out.println(restoTelefono);
+        int StockTelefono = cTelefonosMoviles - sc.nextInt();
+        System.out.println(StockTelefono);
+        
+        System.out.println("¿Cuantos Ordenadores Portatiles quieres comprar?");
+        int StockOrdenaPortatiles = cOrdenadoresPortatiles - sc.nextInt();
+        System.out.println(StockOrdenaPortatiles);
+        
+        System.out.println("¿Cuantos Auriculares Bluetooth quieres comprar?");
+        int StockAuricularesBluetooh = cAuricularesBluetooth - sc.nextInt();
+        System.out.println(StockAuricularesBluetooh);
+        
+        
+        
+        
     }
     
 }
