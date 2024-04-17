@@ -26,19 +26,24 @@ public class TiendaElectronica {
         
         Scanner sc = new Scanner (System.in);
         
-        System.out.println("¿Cuantos Telefonos Moviles quieres comprar?");
+        System.out.println("Cuantos Telefonos Moviles quieres comprar?");
         int StockTelefono = cTelefonosMoviles - sc.nextInt();
         int TotalTelefono = ptelefonomovil * sc.nextInt();
         System.out.println("El precio total de los telefonos moviles " + TotalTelefono);
         
         
-        System.out.println("¿Cuantos Ordenadores Portatiles quieres comprar?");
+        System.out.println("Cuantos Ordenadores Portatiles quieres comprar?");
         int StockOrdenaPortatiles = cOrdenadoresPortatiles - sc.nextInt();
+        int TotalOrdenadorPortatil = pOrdenadoPortatil * sc.nextInt();
+        System.out.println("El precio total de los ordenadores portatiles " + TotalOrdenadorPortatil);
         
         
-        System.out.println("¿Cuantos Auriculares Bluetooth quieres comprar?");
+        System.out.println("Cuantos Auriculares Bluetooth quieres comprar?");
         int StockAuricularesBluetooh = cAuricularesBluetooth - sc.nextInt();
         System.out.println(StockAuricularesBluetooh);
+        int TotalAuricularesBluetooh = pAuricularesBluetooh * sc.nextInt();
+        System.out.println("El precio total de los ordenadores portatiles " + TotalAuricularesBluetooh);
+        
         
         System.out.println(StockTelefono);
         System.out.println(StockOrdenaPortatiles);
